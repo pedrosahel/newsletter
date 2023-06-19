@@ -1,0 +1,63 @@
+body {
+    background-image: url("../img/banner-main.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-size: 1.1rem;
+}
+
+.main {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.form-control {
+    display: block;
+    margin: auto;
+    padding: .5rem 4rem .5rem .5rem;
+    border: solid 1px black ;
+
+}
+
+.top {
+    border-radius: 3px 3px 0 0;
+    margin-bottom: -1px;
+}
+
+.bottom {
+    border-radius: 0 0 3px 3px;
+    margin-top: -1px;
+}
+
+
+/* BUTTONS  */
+
+button {
+    margin-top: .3rem;
+    padding: 1rem 4rem;
+    border-radius: 6px;
+    border: none;
+    background-color: rgba(36, 114, 240, 0.808);
+    color: white;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: rgb(125, 171, 246);
+}
+
+p {
+    font-size: .8rem;
+}
+
+.form-img {
+    width: 128px;
+    height: 128px;
+}
